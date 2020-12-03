@@ -56,6 +56,10 @@
 
 (add-hook 'kill-emacs-hook #'save-frame-dimensions)
 
+(after! flycheck
+  (map! :leader
+        (:prefix-map ("c" . "code")
+         "x" flycheck-command-map)))
 
 ;; Here are some additional functions/macros that could help you configure Doom:
 ;;
