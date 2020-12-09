@@ -6,6 +6,7 @@
 ;; use 'M-x doom/reload'.
 
 (package! flycheck-clj-kondo)
+(package! csv-mode)
 
 
 ;; To install SOME-PACKAGE from MELPA, ELPA or emacsmirror:
